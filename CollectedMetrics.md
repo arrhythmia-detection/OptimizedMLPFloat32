@@ -16,24 +16,14 @@
 
 ##### Two seconds sliding window One Second Overlap
 
-| Model | Accuracy (OFFLINE) | Precision (OFFLINE) | Execution Speed (&mu;s) | Model Arena Size (KB) | Model Size (KB) | Memory Used (KB) (Total) | Flash Size (KB) (Total) | Power consumption | Frequency (DFS OFF) |
-|-------|--------------------|---------------------|-------------------------|-----------------------|-----------------|--------------------------|-------------------------|-------------------|---------------------|
-| MLP   | 90%                | 90%                 | 20405   (avg)           | 5.700                 | 508.140         | 27.988                   | 820.265                 | 235 mW (avg)      | 240  MHz (avg)      |
+| Model | Accuracy (ONLINE) | Precision (ONLINE) | Execution Speed (&mu;s) | Model Arena Size (KB) | Model Size (KB) | Memory Used (KB) (Total) | Flash Size (KB) (Total) | Power consumption | Frequency (DFS OFF) |
+|-------|-------------------|--------------------|-------------------------|-----------------------|-----------------|--------------------------|-------------------------|-------------------|---------------------|
+| MLP   | 90%               | 90%                | TBA   (avg)             | 4.700                 | 6.308           | 23.332                   | 314.449                 | 235 mW (avg)      | 240  MHz (avg)      |
 
 **Note:** While calculating memory and flash we used power of 10 instead of power of 2.
 
 ### Per Ops Wise Execution Time
 
 ```txt
-Operation FULLY_CONNECTED (number 0) executed in 18548 microseconds.
-Going to sleep for a half Second
-Operation FULLY_CONNECTED (number 1) executed in 1345 microseconds.
-Going to sleep for a half Second
-Operation FULLY_CONNECTED (number 2) executed in 344 microseconds.
-Going to sleep for a half Second
-Operation FULLY_CONNECTED (number 3) executed in 123 microseconds.
-Going to sleep for a half Second
-Operation SOFTMAX (number 4) executed in 45 microseconds.
-Going to sleep for a half Second
-expected class 20, predicted class 19
+TBA
 ```
