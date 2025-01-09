@@ -10,20 +10,25 @@
 
 **Mac Address**: 80:65:99:A2:43:DC
 
-#### CAPPIMU Dataset
+#### Chapman ECG Dataset
 
-#### IMU Sensor Position: Right Wrist
-
-##### Two seconds sliding window One Second Overlap
+#### Lead Two ECG Data
 
 | Model | Accuracy (ONLINE) | Precision (ONLINE) | Execution Speed (&mu;s) | Model Arena Size (KB) | Model Size (KB) | Memory Used (KB) (Total) | Flash Size (KB) (Total) | Power consumption | Frequency (DFS OFF) |
 |-------|-------------------|--------------------|-------------------------|-----------------------|-----------------|--------------------------|-------------------------|-------------------|---------------------|
-| MLP   | 90%               | 90%                | TBA   (avg)             | 4.700                 | 6.308           | 23.332                   | 314.449                 | 235 mW (avg)      | 240  MHz (avg)      |
+| MLP   | 90%               | 90%                | 86  (avg)               | 4.700                 | 6.308           | 23.332                   | 314.449                 | 235 mW (avg)      | 240  MHz (avg)      |
 
 **Note:** While calculating memory and flash we used power of 10 instead of power of 2.
 
 ### Per Ops Wise Execution Time
 
 ```txt
-TBA
+Operation FULLY_CONNECTED (number 0) executed in 33 microseconds.
+Going to sleep for a half Second
+Operation FULLY_CONNECTED (number 1) executed in 31 microseconds.
+Going to sleep for a half Second
+Operation FULLY_CONNECTED (number 2) executed in 8 microseconds.
+Going to sleep for a half Second
+Operation SOFTMAX (number 3) executed in 14 microseconds.
+Going to sleep for a half Second
 ```
