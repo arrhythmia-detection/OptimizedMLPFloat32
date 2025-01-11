@@ -51,7 +51,7 @@
 
 This is a standard [platformio](https://platformio.org/) project for `esp32-s3-devkitc-1`
 board which deploys a vanilla [MLP](include/optimized_mlp_float32.h) (*non quantized and utilizes author extracted features*) to ESP32-S3 chip
-and collects necessary performance metrics.
+and collects necessary performance metrics (see [Collected Metrics](CollectedMetrics.md)).
 For model training etc., please refer to
 [this repository](https://github.com/arrhythmia-detection/ArrhythmiaDetectionModels).
 
